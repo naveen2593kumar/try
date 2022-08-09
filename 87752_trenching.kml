@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    <Document>
+        <name>TrenchExample</name>
+        <open>1</open>
+        <Style id="style_Start">
+            <IconStyle>
+                <scale>1.0</scale>
+                <heading>0.0</heading>
+                <Icon>
+                    <href>https://ftth.airtel.com/fiberdeployment/assets/img/marker/small/iconstart.png?437382</href>
+                    <refreshInterval>0.0</refreshInterval>
+                    <viewRefreshTime>0.0</viewRefreshTime>
+                    <viewBoundScale>0.0</viewBoundScale>
+                </Icon>
+            </IconStyle>
+            <LabelStyle>
+                <color>ff43b3ff</color>
+                <scale>1.0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="linestyleHDD">
+            <LineStyle>
+                <color>ff0000ff</color>
+                <width>8.0</width>
+            </LineStyle>
+        </Style>
+        <Style id="linestyleMidHDD">
+            <LineStyle>
+                <color>ffab7879</color>
+                <width>8.0</width>
+            </LineStyle>
+        </Style>
+        <Style id="linestyleOPEN TRENCHING">
+            <LineStyle>
+                <color>ff008000</color>
+                <width>8.0</width>
+            </LineStyle>
+        </Style>
+        <Style id="linestyleOVERHEAD">
+            <LineStyle>
+                <color>ff889878</color>
+                <width>8.0</width>
+            </LineStyle>
+        </Style>
+        <Style id="linestyleCLAMPING">
+            <LineStyle>
+                <color>ffff00ff</color>
+                <width>8.0</width>
+            </LineStyle>
+        </Style>
+        <Style id="linestyleCABLE_BLOWING">
+            <LineStyle>
+                <color>ff336699</color>
+                <width>8.0</width>
+            </LineStyle>
+        </Style>
+        <Style id="linestyleDWC">
+            <LineStyle>
+                <color>ffff0000</color>
+                <width>8.0</width>
+            </LineStyle>
+        </Style>
+        <Style id="linestyleDWC+PCC">
+            <LineStyle>
+                <color>ff3278f0</color>
+                <width>8.0</width>
+            </LineStyle>
+        </Style>
+        <Style id="linestyleDWC+PCC+Chickenmess">
+            <LineStyle>
+                <color>ff00a5ff</color>
+                <width>8.0</width>
+            </LineStyle>
+        </Style>
+        <Style id="linestyleGI">
+            <LineStyle>
+                <color>ffebce87</color>
+                <width>8.0</width>
+            </LineStyle>
+        </Style>
+        <Style id="style_Point">
+            <IconStyle>
+                <scale>1.0</scale>
+                <heading>0.0</heading>
+                <Icon>
+                    <href>https://ftth.airtel.com/fiberdeployment/assets/img/marker/small/point.png?437382</href>
+                    <refreshInterval>0.0</refreshInterval>
+                    <viewRefreshTime>0.0</viewRefreshTime>
+                    <viewBoundScale>0.0</viewBoundScale>
+                </Icon>
+            </IconStyle>
+            <LabelStyle>
+                <color>ff43b3ff</color>
+                <scale>1.0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="style_RouteMarker">
+            <IconStyle>
+                <scale>1.0</scale>
+                <heading>0.0</heading>
+                <Icon>
+                    <href>https://ftth.airtel.com/fiberdeployment/assets/img/marker/small/iconroute.png</href>
+                    <refreshInterval>0.0</refreshInterval>
+                    <viewRefreshTime>0.0</viewRefreshTime>
+                    <viewBoundScale>0.0</viewBoundScale>
+                </Icon>
+            </IconStyle>
+            <LabelStyle>
+                <color>ff43b3ff</color>
+                <scale>1.0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="style_Existing">
+            <IconStyle>
+                <scale>1.0</scale>
+                <heading>0.0</heading>
+                <Icon>
+                    <href>https://ftth.airtel.com/fiberdeployment/assets/img/marker/small/hh_existing.png</href>
+                    <refreshInterval>0.0</refreshInterval>
+                    <viewRefreshTime>0.0</viewRefreshTime>
+                    <viewBoundScale>0.0</viewBoundScale>
+                </Icon>
+            </IconStyle>
+            <LabelStyle>
+                <color>ff43b3ff</color>
+                <scale>1.0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="style_New">
+            <IconStyle>
+                <scale>1.0</scale>
+                <heading>0.0</heading>
+                <Icon>
+                    <href>https://ftth.airtel.com/fiberdeployment/assets/img/marker/small/hh_new.png</href>
+                    <refreshInterval>0.0</refreshInterval>
+                    <viewRefreshTime>0.0</viewRefreshTime>
+                    <viewBoundScale>0.0</viewBoundScale>
+                </Icon>
+            </IconStyle>
+            <LabelStyle>
+                <color>ff43b3ff</color>
+                <scale>1.0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="style_Joints">
+            <IconStyle>
+                <scale>1.0</scale>
+                <heading>0.0</heading>
+                <Icon>
+                    <href>https://ftth.airtel.com/fiberdeployment/assets/img/marker/small/hh_new_jc.png</href>
+                    <refreshInterval>0.0</refreshInterval>
+                    <viewRefreshTime>0.0</viewRefreshTime>
+                    <viewBoundScale>0.0</viewBoundScale>
+                </Icon>
+            </IconStyle>
+            <LabelStyle>
+                <color>ff43b3ff</color>
+                <scale>1.0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="style_FDMS">
+            <IconStyle>
+                <scale>1.0</scale>
+                <heading>0.0</heading>
+                <Icon>
+                    <href>https://ftth.airtel.com/fiberdeployment/assets/img/marker/small/site.png</href>
+                    <refreshInterval>0.0</refreshInterval>
+                    <viewRefreshTime>0.0</viewRefreshTime>
+                    <viewBoundScale>0.0</viewBoundScale>
+                </Icon>
+            </IconStyle>
+            <LabelStyle>
+                <color>ff43b3ff</color>
+                <scale>1.0</scale>
+            </LabelStyle>
+        </Style>
+        <Folder>
+            <name>Trenching</name>
+            <open>1</open>
+            <Placemark>
+                <description>Start_Point_Trenching
+ Latitude: 25.2023865
+ Longitude: 85.5252248</description>
+                <styleUrl>#style_Start</styleUrl>
+                <Point>
+                    <coordinates>85.5252248,25.2023865</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>RouteMarker</name>
+                <description>RouteMarker:
+Type: Plain
+ Latitude: 25.2013466
+ Longitude: 85.5249394
+ Remarks: RM of CP </description>
+                <styleUrl>#style_RouteMarker</styleUrl>
+                <Point>
+                    <coordinates>85.5249394,25.2013466</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <description>manholeId: 87752_1656057584612
+manholeType:Existing
+Construction Status:In Service
+ Distance 1:50
+Reference Point 1:From centre of the road
+ Installed Depth:1.6
+ Type:Manhole
+ Region Type: East
+ Circle Type:Bihar
+ Nmt Section: Other
+ Area Type: Other
+ Description:Own-Intercity
+ Owner(LOB):Airtel Telemedia
+ Specification: 1m x 1.8m x 1.3m
+ City: Other
+ Network Owner:Intracity
+ As Built Date: 2022-06-24
+ RFS Date:2022-06-24
+ State:Other
+ Physical Condition:Traceable
+ Project Engineer:Vishal Kumar
+ Contractor Name:Mukesh Kumar Pradhan
+ UUB Spec ID:MH LC</description>
+                <styleUrl>#style_Existing</styleUrl>
+                <Point>
+                    <coordinates>85.525172,25.202407</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>FDMS</name>
+                <description>FDMS ID:BHBIH19
+ Construction Status:In Service
+Type:Commercial
+ Name:BHBIH19
+ Circle Type:Bihar
+ Nmt Section:Other
+ Area Type:Other
+ In Building Length:48
+ RFS Date: 2022-06-24
+ Network Owner: Intracity
+ City:Other
+ State:Other
+ Owner(LOB):Airtel Telemedia
+ Region Type:East
+ Number of Rooms(Length): Default
+ Floor Dimension(Length): Default
+ Floor Dimension(Width): Default
+ Number of Floors:3
+ Underground Floors: Default
+ M6 Site Id: NA
+ Number of Rooms(Width): Default
+ FTTB?:No
+ REG?:No
+ DLC?:No
+ Mobility?:No
+ FTTH?:No
+ MSU/MSC?:No
+ POI?:No
+ Field Name:BHBIH-19
+ Toco ID:Other
+ Toco Owner:Other</description>
+                <styleUrl>#style_FDMS</styleUrl>
+                <Point>
+                    <coordinates>85.5245958,25.2001375</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Placemark>
+            <name>Trenching_common_info</name>
+            <description>Section Name: BHBIH-19
+ Section Id: BHBIH-19
+ Construction Status:In Service
+ Nmt Section:Other
+ Area Type:Other
+ Circle Type:Bihar
+ Region Type: East
+ Network Owner: Intracity
+ Network Type: Access
+ Owner(LOB): Airtel Telemedia
+ Contractor Name: Mukesh Kumar Pradhan
+ Remarks: 87752
+ City: Other
+ State: Other
+ As Built Date: 25-06-2022
+ RFS Date: 25-06-2022
+ Updated Date: 25-06-2022
+ Row Authorities Others:Others
+ Row Authorities:Others</description>
+            <Point>
+                <coordinates>85.5249093,25.2013879</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <description>C: 0.0</description>
+            <styleUrl>#linestyleHDD</styleUrl>
+            <LineString>
+                <extrude>0</extrude>
+                <tessellate>1</tessellate>
+                <coordinates>85.5252232,25.2024097 85.5249093,25.2013879</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark>
+            <description>C: 0.0</description>
+            <styleUrl>#linestyleHDD</styleUrl>
+            <LineString>
+                <extrude>0</extrude>
+                <tessellate>1</tessellate>
+                <coordinates>85.5249093,25.2013879 85.5246572,25.2002032</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark>
+            <description>ID: 877521656065045
+RoadSideDistance: 2.5
+Depth: 1.3
+RoadSideDirection: Right
+CardType: HDD(End)
+BreakPointType: No BreakPoint
+Lat: 25.2002032
+Lon: 85.5246572
+ Depth Norm:1.2
+ Measured Length:0.131
+Construction Status:In Service
+ Diameter:80
+ Upper Material Depth:2500
+ Core Material Depth:2500
+ Base Material Depth:2500
+ Centre Point Depth:1500
+ Width:300
+ POI Type:Virtual</description>
+            <styleUrl>#style_Point</styleUrl>
+            <Point>
+                <coordinates>85.5246572,25.2002032</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <description>ID: 877521656064470
+RoadSideDistance: 3.0
+Depth: 0.5
+RoadSideDirection: Right
+CardType: HDD(Start)
+BreakPointType: START
+Lat: 25.2024097
+Lon: 85.5252232
+ Depth Norm:1.2
+ Measured Length:0.0
+Construction Status:In Service
+ Diameter:80
+ Upper Material Depth:2500
+ Core Material Depth:2500
+ Base Material Depth:2500
+ Centre Point Depth:1500
+ Width:300
+ POI Type:Virtual</description>
+            <styleUrl>#style_Point</styleUrl>
+            <Point>
+                <coordinates>85.5252232,25.2024097</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <description>ID: 877521656065045
+RoadSideDistance: 2.5
+Depth: 1.3
+RoadSideDirection: Right
+CardType: HDD(Start)
+BreakPointType: No BreakPoint
+Lat: 25.2013879
+Lon: 85.5249093
+ Depth Norm:1.2
+ Measured Length:0.0
+Construction Status:In Service
+ Diameter:80
+ Upper Material Depth:2500
+ Core Material Depth:2500
+ Base Material Depth:2500
+ Centre Point Depth:1500
+ Width:300
+ POI Type:Virtual</description>
+            <styleUrl>#style_Point</styleUrl>
+            <Point>
+                <coordinates>85.5249093,25.2013879</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>
